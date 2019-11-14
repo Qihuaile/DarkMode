@@ -1,0 +1,24 @@
+//
+//  DarkMode.pch
+//  DarkMode_OC
+//
+//  Created by shqq on 2019/11/11.
+//  Copyright © 2019 shqq. All rights reserved.
+//
+
+#ifndef DarkMode_pch
+#define DarkMode_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "UIColor+dynamicColor.h"
+
+#import "CALayer+DynamicColor.h"
+
+#import "UIImageView+CornerRadius.h"
+
+#endif /* DarkMode_pch */
